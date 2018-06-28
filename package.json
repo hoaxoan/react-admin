@@ -23,9 +23,10 @@
         "babel-register": "~6.26.0",
         "cheerio": "~1.0.0-rc.2",
         "chromedriver": "~2.37.0",
-        "docz": "^0.2.6",
-        "docz-plugin-babel6": "^0.2.6",
-        "docz-theme-default": "^0.2.6",
+        "docz": "~0.3.4",
+        "docz-plugin-babel6": "~0.3.4",
+        "docz-theme-default": "~0.3.4",
+        "emotion": "^9.2.4",
         "eslint": "~4.19.1",
         "eslint-config-prettier": "~2.9.0",
         "eslint-plugin-import": "~2.10.0",
@@ -43,8 +44,5 @@
         "react-emotion": "^9.2.4",
         "selenium-webdriver": "~3.5.0"
     },
-    "workspaces": [
-        "packages/*",
-        "examples/*"
-    ]
+    "workspaces": ["packages/*", "examples/*"]
 }
